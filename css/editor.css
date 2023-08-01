@@ -563,9 +563,30 @@
         
     }
     .nav_beneficios ul a{
-        font-size: 30px;
-        margin-left: 50px;
+        font-size: 20px;
+        
     }
+    .seccion_musculacion{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info_musculacion{
+        align-items: center;
+    }
+    .imagenes_musculacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccion_cardio{
+        display: flex;
+        flex-direction: column;
+    }
+    .info_cardio{
+        align-items: center;
+    }
+    
 }
 
 .linea_beneficios{
@@ -755,7 +776,7 @@
 .frase_cardio p{
     color: aliceblue;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 10px;
 }
 
