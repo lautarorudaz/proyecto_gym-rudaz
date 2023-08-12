@@ -8,99 +8,156 @@
 
 /* INICIO INDEX --------------------------------------------------------------------------------*/
 
-.body_index{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body_index {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
     background-image: url(../multimedia/silueta-mujer-gimnasio.jpg);
     background-size: cover;
 }
 
-.menu_de_index{
+.menu_de_index {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
 }
 
-.menu_de_index ul{
-    display: flex;
-    justify-content: flex-end;
-    gap: 70px;
-    margin-top: 40px;
-    margin-right: 60px;
+.menu_de_index ul {
     list-style: none;
-
+    display: flex;
+    gap: 50px;
+    margin-bottom: 0;
 }
 
-.menu_de_index a{
+.menu_de_index a {
     text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
 }
 
-.logo_del_index{
+.logo_del_index {
     height: 70px;
     width: 70px;
-    margin-left: 10px;
-    margin-top: 20px;
     border-radius: 50%;
 }
 
-.linea_index{
-    border-top: 1px solid white ;
-    margin-top: 20px;
+.linea_index {
+    border-top: 1px solid white;
 }
 
-.main_de_index{
+.main_de_index {
+    padding: 60px;
     display: flex;
     justify-content: space-between;
 }
-.seccion_izquierda{
-    margin-top: 90px;
-    margin-left: 50px;
-}
-.seccion_izquierda h3{
-    color: white;
-    font-size: 100px;
-}
 
-.seccion_izquierda p{
-    color: white;
-    font-size: 30px;
-    margin-top: 40px;
-}
-
-.seccion_derecha{
-    margin-top: 120px;
-    margin-right: 40px;
-}
-
-.seccion_derecha h2{
+.seccion_izquierda h1 {
+    font-size: 5em;
     color: white;
 }
 
-.seccion_derecha iframe{
-    margin-left: 100px;
+.seccion_derecha {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.boton_del_index{
+.seccion_derecha h2 {
+    font-size: 2em;
+    color: white;
+}
+
+.seccion_derecha iframe {
+    width: 100%;
+    max-width: 560px;
+    margin: 20px auto;
+}
+
+.boton_del_index {
     background: #1f53c5;
-    height: auto;
     width: 240px;
     border-radius: 15%;
-    margin-left: 250px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
 }
 
-.boton_del_index a{
+.boton_del_index a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
-    margin-left: 10px;
+    font-size: 18px;
 }
 
-#carouselExampleIndicators{
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-centered {
+    margin: 0 auto; 
+    max-width: 60%;
+    margin-bottom: 100px;
+}
+
+.carousel-inner {
     height: 400px;
-    width: 400px;
-    margin-left: 700px;
-    
-    
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .seccion_izquierda h1 {
+        font-size: 3em;
+    }
+
+    .seccion_derecha h2 {
+        font-size: 1.5em;
+    }
+
+    .menu_de_index ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .main_de_index {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion_izquierda h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .seccion_derecha iframe {
+        margin: 20px auto;
+    }
+
+    .boton_del_index {
+        margin-left: 0;
+    }
 }
 
 
@@ -111,6 +168,9 @@
 /* INICIO CONTACTO ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .body_contacto{
+    font-family:'Poppins', sans-serif;
+    background-color: black;
+    color: white;
     background-image: url(../multimedia/fondo\ contacto.jpg);
     background-size: cover;
 }
@@ -122,60 +182,34 @@
 .nav_contacto{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
 }
 
 .nav_contacto ul{
-    display: flex;
-    justify-content: flex-end;
-    gap: 70px;
-    margin-top: 40px;
-    margin-right: 60px;
     list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 0;
 
 }
 
 .nav_contacto a{
     text-decoration: none;
     color: aliceblue;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+   
 }
 .logo_contacto{
     height: 70px;
     width: 70px;
-    margin-left: 10px;
-    margin-top: 20px;
     border-radius: 50%;
 }
 
-@media (max-width:768px){
-    .main_contacto{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-
-    }
-    .div_formulario{
-        display: flex;
-        flex-direction: column;
-        order: -1;
-        width: auto;
-        
-        
-    }
-    .mapa_contacto{
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        
-        
-    }
-}
 
 .linea_contacto{
     border-top: 1px solid white ;
-    margin-top: 20px;
+    
 }
 
 /* FIN NAV CONTACTO */
@@ -183,9 +217,10 @@
 
 
 .main_contacto{
+    padding: 60px;
     display:flex;
-    justify-content: space-around;
-    margin-top: 90px;
+    justify-content: space-between;
+    
 }
 
 .mapa_contacto{
@@ -300,7 +335,29 @@
     grid-column-start: span 2;
 }
 
-@media (min-width:1024px){
+@media (max-width: 768px){
+
+    .nav_contacto ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+
+    }
+
+    .main_contacto iframe{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .main_contacto{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+
+
+
     .gallery-container{
         grid-template-columns: repeat(4,1fr);
         width: 90%;
@@ -347,9 +404,16 @@
 
 
 .body_servicios{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
     background-image: url(../multimedia/fondo\ servicioss.jpg);
     background-size:cover;
     
+}
+
+.main_servicios{
+    flex-wrap: wrap;
 }
 
 /* INICIO NAV SERVICIOS */
@@ -357,35 +421,32 @@
 .nav_servicios{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+
+}
+
+.nav_servicios ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 0;
 }
 
 .nav_servicios a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.nav_servicios ul{
-    display: flex;
-    justify-content: flex-end;
-    gap: 70px;
-    margin-top: 40px;
-    margin-right: 60px;
-    list-style: none;
+    font-size: 18px;
 }
 
 .logo_servicios{
     height: 70px;
     width: 70px;
-    margin-left: 10px;
-    margin-top: 20px;
-    border-radius: 50%;
+   border-radius: 50%;
 }
 
 .linea_servicios{
     border-top: 1px solid rgba(255, 255, 255, 0.527) ;
-    margin-top: 20px;
 }
 
 /* FIN NAV SERVICIOS */
@@ -394,7 +455,6 @@
     display: flex;
     margin-left: 900px;
     border-top: 1px solid rgb(255, 255, 255) ;
-    margin-top: 1px;
     width: 70px;
     
 }
@@ -417,6 +477,7 @@
     font-size: 20px;
     color: white;
     font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
 }
 
 
@@ -508,6 +569,23 @@
     width: 65px;
 }
 
+@media (max-width: 768px) {
+    .nav_servicios ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .main_servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linea_main_servicios{
+        align-items: center;
+    }
+}
+
 
 
 
@@ -526,73 +604,45 @@
 
 /* INICIO NAV DE BENEFICIOS */
 
-.nav_beneficios a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
+.body_beneficios{
     font-family: 'Poppins', sans-serif;
-}
-
-.nav_beneficios ul{
-    display: flex;
-    justify-content: flex-end;
-    gap: 70px;
-    margin-top: 40px;
-    margin-right: 60px;
-
+    background-color: black;
+    color: white;
 }
 
 .nav_beneficios{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
 
 }
+
+.nav_beneficios ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 0;
+
+}
+.nav_beneficios a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
 
 .logo_beneficios{
     height: 70px;
     width: 70px;
-    margin-left: 10px;
-    margin-top: 20px;
     border-radius: 50%;
 }
 
-@media(max-width:768px){
-    .nav_beneficios{
-        display: flex;
-        justify-content: space-between;
-        
-    }
-    .nav_beneficios ul a{
-        font-size: 20px;
-        
-    }
-    .seccion_musculacion{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .info_musculacion{
-        align-items: center;
-    }
-    .imagenes_musculacion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .seccion_cardio{
-        display: flex;
-        flex-direction: column;
-    }
-    .info_cardio{
-        align-items: center;
-    }
-    
-}
 
 .linea_beneficios{
-    border-top: 1px solid rgba(255, 255, 255, 0.527) ;
-    margin-top: 20px;
+    border-top: 1px solid white;
 }
+
 /* FIN DE NAV DE BENEFICIOS*/
 
 
@@ -614,21 +664,19 @@
 
 
 .boton_musculacion{
-    height: 50px;
-    width: 160px;
-    background-color: blue;
-    border-radius: 23%;
+    background: #1f53c5;
+    width: 220px;
+    border-radius: 15%;
+    margin-left: 30px;
+    padding: 10px 2px;
+    text-align: center;
     margin-top: 20px;
 }
-.boton_musculacion p{
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    
-}
+
 .boton_musculacion a{
     text-decoration: none;
+    color: white;
+    font-size: 18px;
 
 }
 
@@ -746,25 +794,21 @@
 }
 
 .boton_cardio{
+    background: #1f53c5;
+    width: 220px;
+    border-radius: 15%;
     margin-left: 30px;
-    background-color: blue;
-    width: 160px;
-    height: 50px;
-    border-radius: 23%;
-    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
-.boton_cardio p{
-    font-size: 22px;
-    padding-top: 10px;
-    padding-right: 4px;
-    color: aliceblue;
-    text-align:start;
-}
 
 .boton_cardio a{
     text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
+
 
 .frase_cardio{
     background-color: blue;
@@ -780,19 +824,48 @@
     padding-top: 10px;
 }
 
+@media (max-width: 768px){
+    .nav_beneficios ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+    .seccion_musculacion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagenes_musculacion{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion_cardio{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .imagenes_cardio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .frase_cardio{
+        margin-top: 270px;
+        width: 100%;
+    }
+    
+
+}
+
 
 
 /* FIN DE BENEFICIOS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.body_nosotros{
-    background-color: black;
-}
 
 
 
-.body_beneficios{
-    background-color: black;
-}
+
+
 
 
 
