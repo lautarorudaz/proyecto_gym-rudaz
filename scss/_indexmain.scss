@@ -28,13 +28,13 @@
         margin: 20px auto;
     }
     .boton_del_index {
-
-        background: #1f53c5;
-        width: 240px;
+        @include button (45px,220px,#201161);
+        background: $bg-color;
         border-radius: 15%;
         margin-left: 30px;
         padding: 10px;
         text-align: center;
+        
     }
 
     .boton_del_index a {

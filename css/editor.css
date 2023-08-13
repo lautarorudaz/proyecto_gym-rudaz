@@ -1,3 +1,30 @@
+.todosnavs, .nav_beneficios, .nav_servicios, .nav_contacto, .menu_de_index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+.todosnavs ul, .nav_beneficios ul, .nav_servicios ul, .nav_contacto ul, .menu_de_index ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 0;
+}
+.todosnavs a, .nav_beneficios a, .nav_servicios a, .nav_contacto a, .menu_de_index a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.todosnavs img, .nav_beneficios img, .nav_servicios img, .nav_contacto img, .menu_de_index img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.linea {
+  border-top: 1px solid white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,33 +42,6 @@
 }
 
 /* NAV INDEX */
-.menu_de_index {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-}
-.menu_de_index ul {
-  list-style: none;
-  display: flex;
-  gap: 50px;
-  margin-bottom: 0;
-}
-.menu_de_index a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.menu_de_index img {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-}
-
-.linea_index {
-  border-top: 1px solid white;
-}
-
 /* FIN NAV INDEX */
 /* MAIN INDEX */
 .main_de_index {
@@ -75,12 +75,16 @@
   margin: 20px auto;
 }
 .seccion_derecha .boton_del_index {
-  background: #1f53c5;
-  width: 240px;
+  width: 220px;
+  height: 45px;
+  background: #0a5bb8;
   border-radius: 15%;
   margin-left: 30px;
   padding: 10px;
   text-align: center;
+}
+.seccion_derecha .boton_del_index:hover {
+  background-color: #201161;
 }
 .seccion_derecha .boton_del_index a {
   text-decoration: none;
@@ -152,33 +156,6 @@
 }
 
 /* NAV CONTACTO */
-.nav_contacto {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-}
-.nav_contacto ul {
-  list-style: none;
-  display: flex;
-  gap: 50px;
-  margin-bottom: 0;
-}
-.nav_contacto a {
-  text-decoration: none;
-  color: aliceblue;
-  font-size: 18px;
-}
-.nav_contacto img {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-}
-
-.linea_contacto {
-  border-top: 1px solid white;
-}
-
 /* FIN NAV CONTACTO */
 .main_contacto {
   padding: 60px;
@@ -333,33 +310,6 @@
 }
 
 /* NAV SERVICIOS */
-.nav_servicios {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-}
-.nav_servicios ul {
-  list-style: none;
-  display: flex;
-  gap: 50px;
-  margin-bottom: 0;
-}
-.nav_servicios a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.nav_servicios img {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-}
-
-.linea_servicios {
-  border-top: 1px solid rgba(255, 255, 255, 0.527);
-}
-
 /* MAIN SERVICIOS */
 .main_servicios {
   flex-wrap: wrap;
@@ -485,33 +435,6 @@
 }
 
 /* INICIO NAV DE BENEFICIOS */
-.nav_beneficios {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-}
-.nav_beneficios ul {
-  list-style: none;
-  display: flex;
-  gap: 50px;
-  margin-bottom: 0;
-}
-.nav_beneficios a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.nav_beneficios img {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-}
-
-.linea_beneficios {
-  border-top: 1px solid white;
-}
-
 /* FIN DE NAV DE BENEFICIOS*/
 .seccion_musculacion {
   display: flex;
@@ -543,13 +466,17 @@
   font-family: "Noto Sans Vithkuqi", sans-serif;
 }
 .seccion_musculacion .info_musculacion .boton_musculacion {
-  background: #1f53c5;
   width: 220px;
+  height: 13%;
+  background: #0a5bb8;
   border-radius: 15%;
   margin-left: 30px;
-  padding: 10px 2px;
+  padding: 10px;
   text-align: center;
   margin-top: 20px;
+}
+.seccion_musculacion .info_musculacion .boton_musculacion:hover {
+  background-color: #201161;
 }
 .seccion_musculacion .info_musculacion .boton_musculacion a {
   text-decoration: none;
@@ -574,7 +501,7 @@
 }
 
 .frase_musculacion {
-  background-color: rgba(2, 49, 201, 0.767);
+  background-color: #0a5bb8;
   height: 70px;
 }
 .frase_musculacion p {
@@ -633,12 +560,17 @@
   font-family: "Noto Sans Vithkuqi", sans-serif;
 }
 .seccion_cardio .info_cardio .boton_cardio {
-  background: #1f53c5;
   width: 220px;
+  height: 70%;
+  background: #0a5bb8;
   border-radius: 15%;
   margin-left: 30px;
   padding: 10px;
   text-align: center;
+  margin-top: 20px;
+}
+.seccion_cardio .info_cardio .boton_cardio:hover {
+  background-color: #201161;
 }
 .seccion_cardio .info_cardio .boton_cardio a {
   text-decoration: none;
@@ -647,7 +579,7 @@
 }
 
 .frase_cardio {
-  background-color: blue;
+  background-color: #0a5bb8;
   height: 70px;
   margin-top: 90px;
 }

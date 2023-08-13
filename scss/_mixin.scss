@@ -1,0 +1,7 @@
+@mixin button ($height,$width,$bg-hover) {
+    width: $width;
+    height: $height;
+    &:hover{
+        background-color: $bg-hover;
+    }
+}
