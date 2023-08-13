@@ -1,0 +1,242 @@
+
+@import "general";
+
+
+/* INICIO INDEX ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@import "indexbody";
+
+
+/* NAV INDEX */
+
+@import "indexnav";
+
+/* FIN NAV INDEX */
+
+
+
+
+/* MAIN INDEX */
+
+@import "indexmain";
+
+/* FIN MAIN INDEX */
+
+
+
+@media (max-width: 768px) {
+    .seccion_izquierda h1 {
+        font-size: 3em;
+    }
+
+    .seccion_derecha h2 {
+        font-size: 1.5em;
+    }
+
+    .menu_de_index ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .main_de_index {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion_izquierda h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .seccion_derecha iframe {
+        margin: 20px auto;
+    }
+
+    .boton_del_index {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+/* INICIO CONTACTO ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@import "contactobody";
+
+
+/* NAV CONTACTO */
+
+@import "contactonav";
+
+/* FIN NAV CONTACTO */
+
+
+@import "contactomain";
+
+
+
+/* GALERIA DE IMAGENES */
+
+@import "contactogaleria";
+
+
+@media (max-width: 768px){
+
+    .nav_contacto ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+
+    }
+
+    .main_contacto iframe{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .main_contacto{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .gallery-container{
+        grid-template-columns: repeat(4,1fr);
+        width: 90%;
+        margin: auto;
+    }
+    .gallery__item:nth-child(1){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .gallery__item:nth-child(4){
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    .gallery__item:nth-child(9){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+     }
+
+     .gallery__item:nth-child(8){
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+     }
+     .gallery__item:nth-child(7){
+        grid-column-start: span 1;
+        grid-row-start: span 3;
+     }
+}
+
+
+/* FIN DE CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO DE SERVICIOS --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@import "serviciosbody";
+
+/* NAV SERVICIOS */
+@import "serviciosnav";
+
+
+/* MAIN SERVICIOS */
+@import "serviciosmain";
+
+
+/* FOOTER SERVICIOS */
+
+@import "serviciosfooter";
+
+
+
+@media (max-width: 768px) {
+    .nav_servicios ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .main_servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linea_main_servicios{
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+/* INICIO BENEFICIOS ----------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+@import "beneficiosbody";
+
+/* INICIO NAV DE BENEFICIOS */
+
+@import "beneficiosnav";
+
+/* FIN DE NAV DE BENEFICIOS*/
+
+
+@import "beneficiosmain";
+
+
+
+@media (max-width: 768px){
+    .nav_beneficios ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+    .seccion_musculacion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagenes_musculacion{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion_cardio{
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .imagenes_cardio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .frase_cardio{
+        margin-top: 270px;
+        width: 100%;
+    }
+    
+
+}
+
+
+
+/* FIN DE BENEFICIOS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */

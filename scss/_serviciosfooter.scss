@@ -1,0 +1,21 @@
+.logos_servicios{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    .logo_ig_servicios{
+        height: 60px;
+        width: 60px;
+    }
+    .logo_wsp_servicios{
+        height: 65px;
+        width: 65px;
+    }
+}
+
+.mas_informacion{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}

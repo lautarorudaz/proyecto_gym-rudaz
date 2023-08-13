@@ -1,0 +1,171 @@
+.seccion_musculacion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+    .info_musculacion{
+        background-color:rgb(0, 0, 0);
+        height: 450px;
+        width: 680px;
+        margin-left: 30px;
+
+            p{
+                font-size: 25px;
+                color: aliceblue;
+                font-family: 'Noto Sans Vithkuqi', sans-serif;
+            }
+
+            h2{
+                font-size: 40px;
+                color: aliceblue;
+                text-align: center;
+                font-family: 'Noto Sans Vithkuqi', sans-serif;
+            }
+
+            h3{
+                font-size: 30px;
+                color: aliceblue;
+                text-align: center;
+                font-family: 'Noto Sans Vithkuqi', sans-serif;
+            }
+
+            .boton_musculacion{
+                background: #1f53c5;
+                width: 220px;
+                border-radius: 15%;
+                margin-left: 30px;
+                padding: 10px 2px;
+                text-align: center;
+                margin-top: 20px;
+
+                    a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 18px;
+            
+                    }
+        }
+    }
+    .imagenes_musculacion{
+        display: flex;
+        margin-right: 70px;
+        gap: 50px;
+
+         .imagen_beneficios_musculacion{
+             height: 400px;
+                width: 600px;
+            }
+        .imagen_beneficios_musculacion2{
+                height: 350px;
+                width: 350px;
+                margin-top: 30px;
+                margin-right: 30px;
+                opacity: .4;
+            }
+
+    }
+
+
+
+}
+
+.frase_musculacion{
+    background-color: rgba(2, 49, 201, 0.767);
+    height: 70px;
+
+    p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 35px;
+        padding-top: 10px;
+    }
+}
+
+/* FIN SECCION MUSCULACION */
+
+
+
+/* SECCION CARDIO */
+
+.seccion_cardio{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+    .imagenes_cardio{
+        display: flex;
+        margin-top: 80px;
+
+        .imagen_beneficios_cardio{
+            height: 400px;
+            width: 600px;
+            margin-left: 40px;
+        }
+        .imagen_beneficios_cardio2{
+            height: 350px;
+            width: 350px;
+            margin-left: 20px;
+            margin-top: 25px;
+            opacity: .4;
+        }
+
+    }
+
+    .info_cardio{
+        height: 80px;
+        width: 680px;
+        margin-top: 80px;
+        margin-right: 40px;
+        
+        h2{
+            color: aliceblue;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Noto Sans Vithkuqi', sans-serif;
+        }
+        h3{
+            color: aliceblue;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Noto Sans Vithkuqi', sans-serif;
+        }
+        p{
+            color: aliceblue;
+            font-size: 25px;
+            margin-left: 30px;
+            font-family: 'Noto Sans Vithkuqi', sans-serif;
+        }
+        .boton_cardio{
+            background: #1f53c5;
+            width: 220px;
+            border-radius: 15%;
+            margin-left: 30px;
+            padding: 10px;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+            }
+        }
+
+
+    }
+    
+
+}
+
+.frase_cardio{
+    background-color: blue;
+    height: 70px;
+    margin-top: 90px;
+    p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+}
