@@ -7,18 +7,26 @@
 .todosnavs ul, .nav_beneficios ul, .nav_servicios ul, .nav_contacto ul, .menu_de_index ul {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 90px;
   margin-bottom: 0;
 }
 .todosnavs a, .nav_beneficios a, .nav_servicios a, .nav_contacto a, .menu_de_index a {
   text-decoration: none;
   color: white;
   font-size: 18px;
+  transition: font-size 0.25s ease-in-out;
+}
+.todosnavs a:hover, .nav_beneficios a:hover, .nav_servicios a:hover, .nav_contacto a:hover, .menu_de_index a:hover {
+  font-size: 25px;
 }
 .todosnavs img, .nav_beneficios img, .nav_servicios img, .nav_contacto img, .menu_de_index img {
   height: 70px;
   width: 70px;
   border-radius: 50%;
+  transition: 0.3s;
+}
+.todosnavs img:hover, .nav_beneficios img:hover, .nav_servicios img:hover, .nav_contacto img:hover, .menu_de_index img:hover {
+  transform: rotateZ(360deg) scale(1.1) translate(0, -5px);
 }
 
 .linea {
