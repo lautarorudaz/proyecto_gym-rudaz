@@ -16,20 +16,10 @@ $bg-color: #0a5bb8;
 @import "indexbody";
 
 
-/* NAV INDEX */
-
 @import "indexnav";
 
-/* FIN NAV INDEX */
-
-
-
-
-/* MAIN INDEX */
 
 @import "indexmain";
-
-/* FIN MAIN INDEX */
 
 
 
@@ -78,18 +68,11 @@ $bg-color: #0a5bb8;
 @import "contactobody";
 
 
-/* NAV CONTACTO */
-
 @import "contactonav";
-
-/* FIN NAV CONTACTO */
 
 
 @import "contactomain";
 
-
-
-/* GALERIA DE IMAGENES */
 
 @import "contactogaleria";
 
@@ -160,15 +143,12 @@ $bg-color: #0a5bb8;
 
 @import "serviciosbody";
 
-/* NAV SERVICIOS */
+
 @import "serviciosnav";
 
 
-/* MAIN SERVICIOS */
 @import "serviciosmain";
 
-
-/* FOOTER SERVICIOS */
 
 @import "serviciosfooter";
 
@@ -201,11 +181,10 @@ $bg-color: #0a5bb8;
 
 @import "beneficiosbody";
 
-/* INICIO NAV DE BENEFICIOS */
+
 
 @import "beneficiosnav";
 
-/* FIN DE NAV DE BENEFICIOS*/
 
 
 @import "beneficiosmain";
