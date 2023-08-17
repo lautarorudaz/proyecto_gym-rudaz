@@ -7,8 +7,8 @@
     .info_musculacion{
         background-color:rgb(0, 0, 0);
         height: 450px;
-        width: 680px;
-        margin-left: 30px;
+        width: 750px;
+        margin-left: 50px;
 
             p{
                 font-size: 25px;
@@ -34,7 +34,6 @@
                 @include button (13%,220px,#201161);
                 background: $bg-color;
                 border-radius: 15%;
-                margin-left: 30px;
                 padding: 10px;
                 text-align: center;
                 margin-top: 20px;
@@ -50,16 +49,16 @@
     }
     .imagenes_musculacion{
         display: flex;
-        margin-right: 70px;
+        margin-right: 150px;
         gap: 50px;
 
          .imagen_beneficios_musculacion{
-             height: 400px;
-                width: 600px;
+                height: 400px;
+                width: 370px;
             }
         .imagen_beneficios_musculacion2{
                 height: 350px;
-                width: 350px;
+                width: 300px;
                 margin-top: 30px;
                 margin-right: 30px;
                 opacity: .4;
@@ -98,15 +97,16 @@
     .imagenes_cardio{
         display: flex;
         margin-top: 80px;
+        margin-left: 150px;
 
         .imagen_beneficios_cardio{
             height: 400px;
-            width: 600px;
+            width: 370px;
             margin-left: 40px;
         }
         .imagen_beneficios_cardio2{
             height: 350px;
-            width: 350px;
+            width: 300px;
             margin-left: 20px;
             margin-top: 25px;
             opacity: .4;
@@ -116,7 +116,7 @@
 
     .info_cardio{
         height: 80px;
-        width: 680px;
+        width: 750px;
         margin-top: 80px;
         margin-right: 40px;
         
