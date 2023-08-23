@@ -155,6 +155,14 @@
   .boton_del_index {
     margin-left: 0;
   }
+  .carousel-centered {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .seccion_derecha .boton_del_index {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 /* INICIO CONTACTO ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .body_contacto {
@@ -310,15 +318,18 @@
     gap: 15px;
     margin-right: 0;
   }
-  .main_contacto iframe {
-    width: 500px;
-    margin: 20px auto;
-  }
   .main_contacto {
     flex-direction: column;
     gap: 15px;
     margin-right: 0;
     align-items: center;
+    padding: 30px;
+  }
+  .main_contacto .div_formulario {
+    align-items: center;
+  }
+  .main_contacto .div_formulario .formulario_contacto {
+    width: 100%;
   }
   .gallery-container {
     grid-template-columns: repeat(4, 1fr);
@@ -478,18 +489,26 @@
     flex-direction: column;
     align-items: center;
   }
-  .nuestros_programas h1 {
+  .main_servicios .nuestros_programas h1 {
     font-size: 28px;
   }
-  .buscamos {
+  .main_servicios .buscamos {
     font-size: 15px;
   }
-  .servicio_uno {
-    height: 300px;
-    width: 400px;
-  }
-  .linea_main_servicios {
+  .main_servicios .cuadros_servicios {
     align-items: center;
+  }
+  .main_servicios .cuadros_servicios .servicio_uno {
+    height: 400px;
+    width: 500px;
+  }
+  .main_servicios .cuadros_servicios .servicio_dos {
+    height: 400px;
+    width: 500px;
+  }
+  .main_servicios .cuadros_servicios .servicio_tres {
+    height: 400px;
+    width: 500px;
   }
 }
 /* INICIO BENEFICIOS ----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
