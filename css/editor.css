@@ -178,10 +178,6 @@
   display: flex;
   justify-content: space-between;
 }
-.main_contacto iframe {
-  height: 700px;
-  width: 900px;
-}
 .main_contacto .div_formulario {
   margin: 0;
   padding: 0;
