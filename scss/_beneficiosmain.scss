@@ -4,184 +4,131 @@
     margin-top: 60px;
 
 }
+.frase_musc,
+.frase_car {
+  background-color: #0a5bb8;
+  padding: 20px;
+  text-align: center;
+}
+
+.frase_musc p,
+.frase_car p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+}
 
 
-.seccion_musculacion{
+.seccion_musculacion, .seccion_funcional{
     display: flex;
     justify-content: space-between;
-    margin-top: 140px;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
 
 
-    .info_musculacion{
-        background-color:rgb(0, 0, 0);
-        height: 450px;
-        width: 750px;
-        margin-left: 50px;
-
-
-            h2{
-                font-size: 40px;
-                color: aliceblue;
-                text-align: center;
-                font-family: 'Noto Sans Vithkuqi', sans-serif;
-                padding-bottom: 10px;
-            }
-
-            h3{
-                font-size: 30px;
-                color: aliceblue;
-                text-align: center;
-                font-family: 'Noto Sans Vithkuqi', sans-serif;
-                padding-bottom: 10px;
-            }
-
-            p{
-                font-size: 25px;
-                color: aliceblue;
-                font-family: 'Noto Sans Vithkuqi', sans-serif;
-            }
-
-            .boton_musculacion{
-                @include button (13%,220px,#201161);
-                background: $bg-color;
-                border-radius: 15%;
-                padding: 10px;
-                text-align: center;
-                margin-top: 20px;
-
-
-                    a{
-                    text-decoration: none;
-                    color: white;
-                    font-size: 18px;
-            
-                    }
-        }
-    }
-    .imagenes_musculacion{
-        display: flex;
-        margin-right: 150px;
-        gap: 50px;
-
-         .imagen_beneficios_musculacion{
-                height: 400px;
-                width: 370px;
-            }
-        .imagen_beneficios_musculacion2{
-                height: 350px;
-                width: 300px;
-                margin-top: 30px;
-                margin-right: 30px;
-                opacity: .4;
-            }
-
-    }
-
-
-
+    .info_musculacion,
+.info_funcional {
+  width: 50%;
 }
 
-.frase_musculacion{
-    background-color: $bg-color;
-    height: 70px;
-
-    p{
-        color: aliceblue;
-        text-align: center;
-        font-size: 35px;
-        padding-top: 10px;
-    }
+.info_musculacion h2,
+.info_funcional h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Noto Sans Vithkuqi", sans-serif;
 }
 
-/* FIN SECCION MUSCULACION */
-
-
-
-/* SECCION CARDIO */
-
-.seccion_cardio{
-    display: flex;
-    justify-content:space-between;
-    margin-top: 50px;
-    flex-wrap: wrap;
-
-    .imagenes_cardio{
-        display: flex;
-        margin-top: 80px;
-        margin-left: 150px;
-
-        .imagen_beneficios_cardio{
-            height: 400px;
-            width: 370px;
-            margin-left: 40px;
-        }
-        .imagen_beneficios_cardio2{
-            height: 350px;
-            width: 300px;
-            margin-left: 20px;
-            margin-top: 25px;
-            opacity: .4;
-        }
-
-    }
-
-    .info_cardio{
-        height: 80px;
-        width: 750px;
-        margin-top: 80px;
-        margin-right: 40px;
-        
-        h2{
-            color: aliceblue;
-            text-align: center;
-            font-size: 40px;
-            font-family: 'Noto Sans Vithkuqi', sans-serif;
-            padding-bottom: 10px;
-        }
-        h3{
-            color: aliceblue;
-            text-align: center;
-            font-size: 30px;
-            font-family: 'Noto Sans Vithkuqi', sans-serif;
-            padding-bottom: 10px;
-        }
-        p{
-            color: aliceblue;
-            font-size: 25px;
-            margin-left: 30px;
-            font-family: 'Noto Sans Vithkuqi', sans-serif;
-        }
-        .boton_cardio{
-            @include button (70%, 220px, #201161 );
-            background: $bg-color;
-            border-radius: 15%;
-            margin-left: 30px;
-            padding: 10px;
-            text-align: center;
-            margin-top: 20px;
-            a{
-                text-decoration: none;
-                color: white;
-                font-size: 18px;
-            }
-        }
-
-
-    }
-    
-
+.info_musculacion p,
+.info_funcional p {
+  font-size: 24px;
 }
 
-.frase_cardio{
-    background-color: $bg-color;
-    height: 70px;
-    margin-top: 90px;
-    p{
-        color: aliceblue;
-        text-align: center;
-        font-size: 30px;
-        padding-top: 10px;
-    }
+.boton_musculacion,
+.boton_funcional  {
+  width: 220px;
+  background: #0769e9;
+  border-radius: 15%;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
 
+.boton_musculacion:hover,
+.boton_funcional:hover {
+  background-color: #201161;
+}
+
+.imagenes_musculacion,
+.imagenes_funcional {
+  display: flex;
+  gap: 20px;
+}
+
+.imagen_beneficios_musculacion,
+.imagen_beneficios_musculacion2,
+.imagen_beneficios_cardio,
+.imagen_beneficios_cardio2 {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+
+
+@media (max-width: 1700px) {
+  .imagen_beneficios_musculacion,
+  .imagen_beneficios_musculacion2,
+  .imagen_beneficios_cardio,
+  .imagen_beneficios_cardio2 {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .info_musculacion,
+  .info_funcional {
+    width: 100%;
+    margin-bottom:50px;
+  }
+  .seccion_musculacion,
+  .seccion_funcional {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen_beneficios_musculacion,
+  .imagen_beneficios_musculacion2,
+  .imagen_beneficios_cardio,
+  .imagen_beneficios_cardio2 {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu_de_index ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+  }
+  
+
+  .seccion_musculacion,
+  .seccion_funcional {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagenes_musculacion,
+  .imagenes_funcional {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px ;
+  }
+
+}
 }

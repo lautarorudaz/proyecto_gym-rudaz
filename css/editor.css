@@ -539,168 +539,145 @@
   color: white;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .titulo_beneficios {
   text-align: center;
   padding: 0;
   margin-top: 60px;
 }
 
-.seccion_musculacion {
+.frase_musc,
+.frase_car {
+  background-color: #0a5bb8;
+  padding: 20px;
+  text-align: center;
+}
+
+.frase_musc p,
+.frase_car p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+}
+
+.seccion_musculacion, .seccion_funcional {
   display: flex;
   justify-content: space-between;
-  margin-top: 140px;
-  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
 }
-.seccion_musculacion .info_musculacion {
-  background-color: rgb(0, 0, 0);
-  height: 450px;
-  width: 750px;
-  margin-left: 50px;
+.seccion_musculacion .info_musculacion,
+.seccion_musculacion .info_funcional, .seccion_funcional .info_musculacion,
+.seccion_funcional .info_funcional {
+  width: 50%;
 }
-.seccion_musculacion .info_musculacion h2 {
-  font-size: 40px;
+.seccion_musculacion .info_musculacion h2,
+.seccion_musculacion .info_funcional h2, .seccion_funcional .info_musculacion h2,
+.seccion_funcional .info_funcional h2 {
+  text-transform: uppercase;
+  font-size: 45px;
   color: aliceblue;
   text-align: center;
   font-family: "Noto Sans Vithkuqi", sans-serif;
-  padding-bottom: 10px;
 }
-.seccion_musculacion .info_musculacion h3 {
-  font-size: 30px;
-  color: aliceblue;
-  text-align: center;
-  font-family: "Noto Sans Vithkuqi", sans-serif;
-  padding-bottom: 10px;
+.seccion_musculacion .info_musculacion p,
+.seccion_musculacion .info_funcional p, .seccion_funcional .info_musculacion p,
+.seccion_funcional .info_funcional p {
+  font-size: 24px;
 }
-.seccion_musculacion .info_musculacion p {
-  font-size: 25px;
-  color: aliceblue;
-  font-family: "Noto Sans Vithkuqi", sans-serif;
-}
-.seccion_musculacion .info_musculacion .boton_musculacion {
+.seccion_musculacion .boton_musculacion,
+.seccion_musculacion .boton_funcional, .seccion_funcional .boton_musculacion,
+.seccion_funcional .boton_funcional {
   width: 220px;
-  height: 13%;
-  background: #0a5bb8;
+  background: #0769e9;
   border-radius: 15%;
   padding: 10px;
   text-align: center;
   margin-top: 20px;
+  display: block;
+  color: white;
+  text-decoration: none;
 }
-.seccion_musculacion .info_musculacion .boton_musculacion:hover {
+.seccion_musculacion .boton_musculacion:hover,
+.seccion_musculacion .boton_funcional:hover, .seccion_funcional .boton_musculacion:hover,
+.seccion_funcional .boton_funcional:hover {
   background-color: #201161;
 }
-.seccion_musculacion .info_musculacion .boton_musculacion a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.seccion_musculacion .imagenes_musculacion {
+.seccion_musculacion .imagenes_musculacion,
+.seccion_musculacion .imagenes_funcional, .seccion_funcional .imagenes_musculacion,
+.seccion_funcional .imagenes_funcional {
   display: flex;
-  margin-right: 150px;
-  gap: 50px;
+  gap: 20px;
 }
-.seccion_musculacion .imagenes_musculacion .imagen_beneficios_musculacion {
-  height: 400px;
-  width: 370px;
+.seccion_musculacion .imagen_beneficios_musculacion,
+.seccion_musculacion .imagen_beneficios_musculacion2,
+.seccion_musculacion .imagen_beneficios_cardio,
+.seccion_musculacion .imagen_beneficios_cardio2, .seccion_funcional .imagen_beneficios_musculacion,
+.seccion_funcional .imagen_beneficios_musculacion2,
+.seccion_funcional .imagen_beneficios_cardio,
+.seccion_funcional .imagen_beneficios_cardio2 {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
 }
-.seccion_musculacion .imagenes_musculacion .imagen_beneficios_musculacion2 {
-  height: 350px;
-  width: 300px;
-  margin-top: 30px;
-  margin-right: 30px;
-  opacity: 0.4;
+@media (max-width: 1700px) {
+  .seccion_musculacion .imagen_beneficios_musculacion,
+  .seccion_musculacion .imagen_beneficios_musculacion2,
+  .seccion_musculacion .imagen_beneficios_cardio,
+  .seccion_musculacion .imagen_beneficios_cardio2, .seccion_funcional .imagen_beneficios_musculacion,
+  .seccion_funcional .imagen_beneficios_musculacion2,
+  .seccion_funcional .imagen_beneficios_cardio,
+  .seccion_funcional .imagen_beneficios_cardio2 {
+    max-width: 250px;
+  }
 }
-
-.frase_musculacion {
-  background-color: #0a5bb8;
-  height: 70px;
+@media (max-width: 1200px) {
+  .seccion_musculacion .info_musculacion,
+  .seccion_musculacion .info_funcional, .seccion_funcional .info_musculacion,
+  .seccion_funcional .info_funcional {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .seccion_musculacion .seccion_musculacion,
+  .seccion_musculacion .seccion_funcional, .seccion_funcional .seccion_musculacion,
+  .seccion_funcional .seccion_funcional {
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion_musculacion .imagen_beneficios_musculacion,
+  .seccion_musculacion .imagen_beneficios_musculacion2,
+  .seccion_musculacion .imagen_beneficios_cardio,
+  .seccion_musculacion .imagen_beneficios_cardio2, .seccion_funcional .imagen_beneficios_musculacion,
+  .seccion_funcional .imagen_beneficios_musculacion2,
+  .seccion_funcional .imagen_beneficios_cardio,
+  .seccion_funcional .imagen_beneficios_cardio2 {
+    max-width: 300px;
+  }
 }
-.frase_musculacion p {
-  color: aliceblue;
-  text-align: center;
-  font-size: 35px;
-  padding-top: 10px;
-}
-
-/* FIN SECCION MUSCULACION */
-/* SECCION CARDIO */
-.seccion_cardio {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  flex-wrap: wrap;
-}
-.seccion_cardio .imagenes_cardio {
-  display: flex;
-  margin-top: 80px;
-  margin-left: 150px;
-}
-.seccion_cardio .imagenes_cardio .imagen_beneficios_cardio {
-  height: 400px;
-  width: 370px;
-  margin-left: 40px;
-}
-.seccion_cardio .imagenes_cardio .imagen_beneficios_cardio2 {
-  height: 350px;
-  width: 300px;
-  margin-left: 20px;
-  margin-top: 25px;
-  opacity: 0.4;
-}
-.seccion_cardio .info_cardio {
-  height: 80px;
-  width: 750px;
-  margin-top: 80px;
-  margin-right: 40px;
-}
-.seccion_cardio .info_cardio h2 {
-  color: aliceblue;
-  text-align: center;
-  font-size: 40px;
-  font-family: "Noto Sans Vithkuqi", sans-serif;
-  padding-bottom: 10px;
-}
-.seccion_cardio .info_cardio h3 {
-  color: aliceblue;
-  text-align: center;
-  font-size: 30px;
-  font-family: "Noto Sans Vithkuqi", sans-serif;
-  padding-bottom: 10px;
-}
-.seccion_cardio .info_cardio p {
-  color: aliceblue;
-  font-size: 25px;
-  margin-left: 30px;
-  font-family: "Noto Sans Vithkuqi", sans-serif;
-}
-.seccion_cardio .info_cardio .boton_cardio {
-  width: 220px;
-  height: 70%;
-  background: #0a5bb8;
-  border-radius: 15%;
-  margin-left: 30px;
-  padding: 10px;
-  text-align: center;
-  margin-top: 20px;
-}
-.seccion_cardio .info_cardio .boton_cardio:hover {
-  background-color: #201161;
-}
-.seccion_cardio .info_cardio .boton_cardio a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-
-.frase_cardio {
-  background-color: #0a5bb8;
-  height: 70px;
-  margin-top: 90px;
-}
-.frase_cardio p {
-  color: aliceblue;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 10px;
+@media (max-width: 768px) {
+  .seccion_musculacion .menu_de_index ul, .seccion_funcional .menu_de_index ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+  }
+  .seccion_musculacion .seccion_musculacion,
+  .seccion_musculacion .seccion_funcional, .seccion_funcional .seccion_musculacion,
+  .seccion_funcional .seccion_funcional {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion_musculacion .imagenes_musculacion,
+  .seccion_musculacion .imagenes_funcional, .seccion_funcional .imagenes_musculacion,
+  .seccion_funcional .imagenes_funcional {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 768px) {
