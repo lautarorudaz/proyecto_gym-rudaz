@@ -76,6 +76,8 @@ $bg-color: #0a5bb8;
 
 @import "contactogaleria";
 
+@import "contacto_footer";
+
 
 @media (max-width: 768px){
 
@@ -87,7 +89,7 @@ $bg-color: #0a5bb8;
     }
 
     .main_contacto iframe{
-        width: 100%;
+        width: 500px;
         margin: 20px auto;
     }
 
@@ -95,6 +97,7 @@ $bg-color: #0a5bb8;
         flex-direction: column;
         gap: 15px;
         margin-right: 0;
+        align-items: center;
     }
 
     .gallery-container{
@@ -123,7 +126,24 @@ $bg-color: #0a5bb8;
         grid-column-start: span 1;
         grid-row-start: span 3;
      }
+
+     .footer_contacto{
+        flex-direction: column;
+     }
+     .informacion_para_contactar{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+            .info_telefono{
+                padding-bottom: 30px;
+            }
+            .info_telefono h2{
+                padding-right: 80px;
+            }
+     }
 }
+
+
 
 
 /* FIN DE CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -164,6 +184,19 @@ $bg-color: #0a5bb8;
     .main_servicios{
         flex-direction: column;
         align-items: center;
+    }
+
+    .nuestros_programas h1{
+        font-size: 28px;
+    }
+
+    .buscamos {
+        font-size: 15px;
+    }
+
+    .servicio_uno{
+        height: 300px;
+        width: 400px;
     }
 
     .linea_main_servicios{
