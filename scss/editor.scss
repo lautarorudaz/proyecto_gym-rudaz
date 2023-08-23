@@ -99,9 +99,9 @@ $bg-color: #0a5bb8;
     .main_contacto{
         flex-direction: column;
         gap: 15px;
-        margin-right: 0;
         align-items: center;
         padding: 30px;
+        width: 100%;
         
             .mapa_contactoo{
                 width: 70%;
@@ -189,8 +189,6 @@ $bg-color: #0a5bb8;
 
 @import "serviciosfooter";
 
-
-
 @media (max-width: 768px) {
     .nav_servicios ul{
         flex-direction: column;
@@ -201,6 +199,11 @@ $bg-color: #0a5bb8;
     .main_servicios{
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        padding: 0 30px;
+            .titulo {
+                width: 100%;
+            }
             .nuestros_programas h1{
             font-size: 28px;
             }
@@ -209,17 +212,18 @@ $bg-color: #0a5bb8;
              font-size: 15px;
             }
             .cuadros_servicios{
+                width: 100%;
                 align-items: center;
                     .servicio_uno{
+                        width: 100%;
                         height: 400px;
-                        width: 500px;
                     }
                     .servicio_dos{
-                        height: 400px;
+                        height: 100%;
                         width: 500px;
                     }
                     .servicio_tres{
-                        height: 400px;
+                        height: 100%;
                         width: 500px;
                     }
             }
@@ -230,6 +234,9 @@ $bg-color: #0a5bb8;
 
 
 }
+
+
+
 
 
 

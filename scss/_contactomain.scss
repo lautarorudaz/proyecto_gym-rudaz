@@ -1,7 +1,10 @@
 .main_contacto{
     padding: 60px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 190px;
+    
 
     .mapa_contactoo{
         width: 50%;
@@ -12,6 +15,7 @@
         padding: 0;
         box-sizing: border-box;
         .formulario_contacto{
+            display: flex;
             width: 490px;
             background: #24303c;
             padding: 30px;
@@ -20,6 +24,8 @@
             font-family: 'calibri';
             color: white;
             box-shadow: 7px 13px 37px #000;
+            justify-content: center;
+             flex-wrap: wrap;
             h4{
                 font-size: 22px;
                 margin-bottom: 20px;

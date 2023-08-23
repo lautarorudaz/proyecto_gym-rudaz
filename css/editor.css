@@ -176,7 +176,9 @@
 .main_contacto {
   padding: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 190px;
 }
 .main_contacto .mapa_contactoo {
   width: 50%;
@@ -187,6 +189,7 @@
   box-sizing: border-box;
 }
 .main_contacto .div_formulario .formulario_contacto {
+  display: flex;
   width: 490px;
   background: #24303c;
   padding: 30px;
@@ -195,6 +198,8 @@
   font-family: "calibri";
   color: white;
   box-shadow: 7px 13px 37px #000;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .main_contacto .div_formulario .formulario_contacto h4 {
   font-size: 22px;
@@ -277,8 +282,10 @@
 
 .informacion_para_contactar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 130px;
   padding-top: 70px;
+  flex-wrap: wrap;
 }
 
 /* telefono */
@@ -320,9 +327,9 @@
   .main_contacto {
     flex-direction: column;
     gap: 15px;
-    margin-right: 0;
     align-items: center;
     padding: 30px;
+    width: 100%;
   }
   .main_contacto .mapa_contactoo {
     width: 70%;
@@ -384,7 +391,15 @@
 }
 
 .main_servicios {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+.main_servicios .titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .main_servicios .nuestros_programas {
   display: flex;
@@ -396,8 +411,6 @@
   font-family: "Poppins", sans-serif;
 }
 .main_servicios .linea_main_servicios {
-  display: flex;
-  margin-left: 900px;
   border-top: 1px solid rgb(255, 255, 255);
   width: 70px;
 }
@@ -490,6 +503,11 @@
   .main_servicios {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .main_servicios .titulo {
+    width: 100%;
   }
   .main_servicios .nuestros_programas h1 {
     font-size: 28px;
@@ -498,18 +516,19 @@
     font-size: 15px;
   }
   .main_servicios .cuadros_servicios {
+    width: 100%;
     align-items: center;
   }
   .main_servicios .cuadros_servicios .servicio_uno {
+    width: 100%;
     height: 400px;
-    width: 500px;
   }
   .main_servicios .cuadros_servicios .servicio_dos {
-    height: 400px;
+    height: 100%;
     width: 500px;
   }
   .main_servicios .cuadros_servicios .servicio_tres {
-    height: 400px;
+    height: 100%;
     width: 500px;
   }
 }

@@ -13,8 +13,10 @@
 
 .informacion_para_contactar{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 130px;
     padding-top: 70px;
+    flex-wrap: wrap;
 
 }
 /* telefono */
