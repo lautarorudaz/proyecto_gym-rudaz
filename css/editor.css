@@ -178,6 +178,9 @@
   display: flex;
   justify-content: space-between;
 }
+.main_contacto .mapa_contactoo {
+  width: 50%;
+}
 .main_contacto .div_formulario {
   margin: 0;
   padding: 0;
@@ -320,6 +323,9 @@
     margin-right: 0;
     align-items: center;
     padding: 30px;
+  }
+  .main_contacto .mapa_contactoo {
+    width: 70%;
   }
   .main_contacto .div_formulario {
     align-items: center;

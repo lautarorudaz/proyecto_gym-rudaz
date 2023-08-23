@@ -102,12 +102,17 @@ $bg-color: #0a5bb8;
         margin-right: 0;
         align-items: center;
         padding: 30px;
+        
+            .mapa_contactoo{
+                width: 70%;
+            }
+
              .div_formulario{
                 align-items: center;
                 
-                .formulario_contacto{
-                    width: 100%;
-                }
+                    .formulario_contacto{
+                        width: 100%;
+                    }
             }
     }
 
