@@ -16,14 +16,19 @@ $bg-color: #0a5bb8;
 @import "indexbody";
 
 
+/* NAV INDEX */
+
 @import "indexnav";
 
+/* MAIN INDEX */
 
 @import "indexmain";
 
+/* FOOTER INDEX */
+
 @import "index_footer";
 
-
+/* RESPONSIVE INDEX */
 
 @media (max-width: 768px) {
     .seccion_izquierda h1 {
@@ -77,17 +82,23 @@ $bg-color: #0a5bb8;
 
 @import "contactobody";
 
+/* NAV CONTACTO */
 
 @import "contactonav";
 
+/* MAIN CONTACTO */
 
 @import "contactomain";
 
+/* GALERIA CONTACTO */
 
 @import "contactogaleria";
 
+/* FOOTER CONTACTO */
+
 @import "contacto_footer";
 
+/* RESPONSIVE CONTACTO */
 
 @media (max-width: 768px){
 
@@ -121,29 +132,34 @@ $bg-color: #0a5bb8;
 
     .gallery-container{
         grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
         width: 90%;
         margin: auto;
     }
     .gallery__item:nth-child(1){
         grid-column-start: span 2;
-        grid-row-start: span 2;
+        grid-row-start: span 1;
     }
     .gallery__item:nth-child(4){
         grid-column-start: span 1;
-        grid-row-start: span 2;
+        grid-row-start: span 1;
     }
     .gallery__item:nth-child(9){
-        grid-column-start: span 2;
-        grid-row-start: span 2;
+        grid-column-start: span 4;
+        grid-row-start: span 3;
      }
 
      .gallery__item:nth-child(8){
-        grid-column-start: span 1;
-        grid-row-start: span 2;
+        grid-column-start: span 2;
+        grid-row-start: span 1;
      }
      .gallery__item:nth-child(7){
-        grid-column-start: span 1;
-        grid-row-start: span 3;
+        grid-column-start: span 2;
+        grid-row-start: span 1;
+     }
+     .gallery__item:nth-child(6){
+        grid-column-start: span 2;
+        grid-row-start: span 1;
      }
 
      .footer_contacto{
@@ -191,6 +207,8 @@ $bg-color: #0a5bb8;
 
 
 @import "serviciosfooter";
+
+/* RESPONSIVE SERVICIO */
 
 @media (max-width: 768px) {
     .nav_servicios ul{
@@ -244,18 +262,13 @@ $bg-color: #0a5bb8;
 
 @import "beneficiosbody";
 
-
-
 @import "beneficiosnav";
-
-
 
 @import "beneficiosmain";
 
-
 @import "beneficios_footer";
 
-
+/* RESPONSIVE BENEFICIOS */
 
 @media (max-width: 768px){
     .nav_beneficios ul{
