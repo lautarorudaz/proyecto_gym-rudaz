@@ -31,37 +31,31 @@ $bg-color: #0a5bb8;
 /* RESPONSIVE INDEX */
 
 @media (max-width: 768px) {
-    .seccion_izquierda h1 {
-        font-size: 3em;
-    }
-
-    .seccion_derecha h2 {
-        font-size: 1.5em;
-    }
-
+    
     .menu_de_index ul {
         flex-direction: column;
         gap: 15px;
         margin-right: 0;
     }
 
-    .main_de_index {
+    .contenido_principal{
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        margin-top: 80px;
+            h1{
+                font-size: 70px;
+            }
+            h2{
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .boton_principal{
+                margin-left: 0;
+            }
     }
 
-    .seccion_izquierda h3 {
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
-
-    .seccion_derecha iframe {
-        margin: 20px auto;
-    }
-
-    .boton_del_index {
-        margin-left: 0;
-    }
+    
     .carousel-centered{
         max-width: 100%;
         padding: 0 30px;

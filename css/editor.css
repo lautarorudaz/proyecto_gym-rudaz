@@ -98,63 +98,47 @@
   font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
-  background-image: url(../multimedia/silueta-mujer-gimnasio.jpg);
+  background-image: url(../multimedia/fondo\ index\ body.jpg);
   background-size: cover;
 }
 
 /* NAV INDEX */
 /* MAIN INDEX */
-.main_de_index {
-  padding: 60px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.seccion_izquierda h1 {
-  font-size: 6em;
-  color: white;
-  font-family: "Poppins", sans-serif;
-}
-
-.seccion_izquierda p {
-  font-size: 25px;
-}
-
-.seccion_derecha {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  padding: 20px;
+.contenido_principal {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  margin-top: 240px;
 }
-.seccion_derecha h2 {
-  font-size: 2em;
-  color: white;
+.contenido_principal h1 {
+  font-size: 90px;
 }
-.seccion_derecha iframe {
-  width: 100%;
-  max-width: 560px;
-  margin: 20px auto;
+.contenido_principal h2 {
+  font-size: 20px;
 }
-.seccion_derecha .boton_del_index {
-  width: 220px;
-  height: 45px;
-  background: #0a5bb8;
-  border-radius: 15%;
-  margin-left: 30px;
+.contenido_principal .boton_principal {
+  width: 190px;
+  background: #0769e9;
+  border-radius: 5%;
   padding: 10px;
+  margin-bottom: 100px;
   text-align: center;
+  margin-top: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
-.seccion_derecha .boton_del_index:hover {
-  background-color: #201161;
-}
-.seccion_derecha .boton_del_index a {
+.contenido_principal .boton_principal a {
   text-decoration: none;
+}
+.contenido_principal .boton_principal p {
   color: white;
-  font-size: 18px;
+}
+.contenido_principal .boton_principal :hover {
+  transform: scale(1.4);
+}
+
+.color_titulo {
+  color: blue;
 }
 
 .carousel-indicators {
@@ -240,29 +224,25 @@
 
 /* RESPONSIVE INDEX */
 @media (max-width: 768px) {
-  .seccion_izquierda h1 {
-    font-size: 3em;
-  }
-  .seccion_derecha h2 {
-    font-size: 1.5em;
-  }
   .menu_de_index ul {
     flex-direction: column;
     gap: 15px;
     margin-right: 0;
   }
-  .main_de_index {
+  .contenido_principal {
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 80px;
   }
-  .seccion_izquierda h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
+  .contenido_principal h1 {
+    font-size: 70px;
   }
-  .seccion_derecha iframe {
-    margin: 20px auto;
+  .contenido_principal h2 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  .boton_del_index {
+  .contenido_principal .boton_principal {
     margin-left: 0;
   }
   .carousel-centered {
