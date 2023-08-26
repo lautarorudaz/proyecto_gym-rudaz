@@ -2,6 +2,31 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+
+    .mas_informacion{
+        text-align: center;
+        margin-top: 70px;
+        color: white;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    
+    .logos_servicios{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 20px;
+        .logo_ig_servicios{
+            height: 60px;
+            width: 60px;
+        }
+        .logo_wsp_servicios{
+            height: 65px;
+            width: 65px;
+        }
+    }
 
     .titulo {
         display: flex;
@@ -91,5 +116,6 @@
 
     }
 }
+
 
 }

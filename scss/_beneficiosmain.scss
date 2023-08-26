@@ -115,25 +115,34 @@
     margin-right: 0;
   }
   
-
-  .seccion_musculacion,
-  .seccion_funcional {
+  .seccion_musculacion{
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+  }
+  .imagenes_musculacion{
     flex-direction: column;
     align-items: center;
   }
+  .info_musculacion p{
+    font-size: 20px
+  }
 
-  .info_musculacion p,
-.info_funcional p {
-  font-size: 20px;
-}
-
-  .imagenes_musculacion,
-  .imagenes_funcional {
+  .seccion_funcional{
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px ;
+    padding: 20px;
   }
+  .imagenes_funcional{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    
+  }
+  .info_funcional p{
+    font-size: 20px
+  }
+  
 
 }
 }

@@ -1,9 +1,22 @@
+.titulo_contacto{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+        .titulo_de_contacto{
+            color: #1f53c5;
+        }
+        h1{
+            font-size: 50px;
+        }
+}
+
 .main_contacto{
     padding: 60px;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 190px;
+    
     
 
     .mapa_contactoo{

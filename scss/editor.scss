@@ -103,6 +103,14 @@ $bg-color: #0a5bb8;
 
     }
 
+    .titulo_contacto{ 
+
+        h1{
+            font-size: 40px;
+            color: #0a5bb8;
+        }
+    }
+
     .main_contacto{
         flex-direction: column;
         gap: 15px;
@@ -278,22 +286,17 @@ $bg-color: #0a5bb8;
         flex-direction: column;
         align-items: center;
     }
-
-    .seccion_cardio{
-        flex-direction: column;
-        gap: 15px;
-        margin-right: 0;
-    }
-
-    .imagenes_cardio{
+    .seccion_funcional{
         flex-direction: column;
         align-items: center;
     }
-    .frase_cardio{
-        margin-top: 270px;
-        width: 100%;
+    .imagenes_funcional{
+        flex-direction: column;
+        align-items: center;
+        
     }
-    
+
+
 
 }
 
