@@ -66,6 +66,56 @@ $bg-color: #0a5bb8;
     }
 }
 
+@media (max-width: 470px) {
+    
+    .menu_de_index ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .contenido_principal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+            h1{
+                font-size: 45px;
+            }
+            h2{
+                font-size: 15px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .boton_principal{
+                margin-left: 0;
+            }
+    }
+
+    .footer_general{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+            .menu_footer {
+                margin-right: 30px;
+                ul{
+                    gap:30px;
+                }
+    }
+}
+
+    
+    .carousel-centered{
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    .seccion_derecha .boton_del_index {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* FIN DE RESPONSIVE INDEX */
+
 
 
 
@@ -179,6 +229,12 @@ $bg-color: #0a5bb8;
                 padding-right: 80px;
             }
      }
+}
+
+@media (max-width: 470px){
+    .titulo_contacto h1{
+        font-size: 35px
+    }
 }
 
 
@@ -299,6 +355,8 @@ $bg-color: #0a5bb8;
 
 
 }
+
+
 
 
 

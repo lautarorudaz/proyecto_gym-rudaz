@@ -34,55 +34,55 @@
   border-top: 1px solid white;
 }
 
-.footer_general .footer_general, .footer_beneficios .footer_general, .footer_general .footer_beneficios, .footer_beneficios .footer_beneficios, .footer_contacto .footer_general, .footer_contacto .footer_beneficios, .footer_general .footer_contacto, .footer_beneficios .footer_contacto, .footer_contacto .footer_contacto {
+.footer_general .footer_general, .footer_beneficios .footer_general, .footer_general .footer_beneficios, .footer_beneficios .footer_beneficios, .footer_servicios .footer_general, .footer_servicios .footer_beneficios, .footer_general .footer_servicios, .footer_beneficios .footer_servicios, .footer_servicios .footer_servicios, .footer_contacto .footer_general, .footer_contacto .footer_beneficios, .footer_contacto .footer_servicios, .footer_general .footer_contacto, .footer_beneficios .footer_contacto, .footer_servicios .footer_contacto, .footer_contacto .footer_contacto {
   background-color: rgba(0, 0, 0, 0.041);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer_general .footer_general .logos_footer, .footer_beneficios .footer_general .logos_footer, .footer_general .footer_beneficios .logos_footer, .footer_beneficios .footer_beneficios .logos_footer, .footer_contacto .footer_general .logos_footer, .footer_contacto .footer_beneficios .logos_footer, .footer_general .footer_contacto .logos_footer, .footer_beneficios .footer_contacto .logos_footer, .footer_contacto .footer_contacto .logos_footer {
+.footer_general .footer_general .logos_footer, .footer_beneficios .footer_general .logos_footer, .footer_general .footer_beneficios .logos_footer, .footer_beneficios .footer_beneficios .logos_footer, .footer_servicios .footer_general .logos_footer, .footer_servicios .footer_beneficios .logos_footer, .footer_general .footer_servicios .logos_footer, .footer_beneficios .footer_servicios .logos_footer, .footer_servicios .footer_servicios .logos_footer, .footer_contacto .footer_general .logos_footer, .footer_contacto .footer_beneficios .logos_footer, .footer_contacto .footer_servicios .logos_footer, .footer_general .footer_contacto .logos_footer, .footer_beneficios .footer_contacto .logos_footer, .footer_servicios .footer_contacto .logos_footer, .footer_contacto .footer_contacto .logos_footer {
   width: auto;
   padding-bottom: 30px;
   padding-top: 20px;
 }
-.footer_general .footer_general .logos_footer img, .footer_beneficios .footer_general .logos_footer img, .footer_general .footer_beneficios .logos_footer img, .footer_beneficios .footer_beneficios .logos_footer img, .footer_contacto .footer_general .logos_footer img, .footer_contacto .footer_beneficios .logos_footer img, .footer_general .footer_contacto .logos_footer img, .footer_beneficios .footer_contacto .logos_footer img, .footer_contacto .footer_contacto .logos_footer img {
+.footer_general .footer_general .logos_footer img, .footer_beneficios .footer_general .logos_footer img, .footer_general .footer_beneficios .logos_footer img, .footer_beneficios .footer_beneficios .logos_footer img, .footer_servicios .footer_general .logos_footer img, .footer_servicios .footer_beneficios .logos_footer img, .footer_general .footer_servicios .logos_footer img, .footer_beneficios .footer_servicios .logos_footer img, .footer_servicios .footer_servicios .logos_footer img, .footer_contacto .footer_general .logos_footer img, .footer_contacto .footer_beneficios .logos_footer img, .footer_contacto .footer_servicios .logos_footer img, .footer_general .footer_contacto .logos_footer img, .footer_beneficios .footer_contacto .logos_footer img, .footer_servicios .footer_contacto .logos_footer img, .footer_contacto .footer_contacto .logos_footer img {
   margin: 0 2px;
 }
-.footer_general .footer_general .logos_footer .logo_letras_footer, .footer_beneficios .footer_general .logos_footer .logo_letras_footer, .footer_general .footer_beneficios .logos_footer .logo_letras_footer, .footer_beneficios .footer_beneficios .logos_footer .logo_letras_footer, .footer_contacto .footer_general .logos_footer .logo_letras_footer, .footer_contacto .footer_beneficios .logos_footer .logo_letras_footer, .footer_general .footer_contacto .logos_footer .logo_letras_footer, .footer_beneficios .footer_contacto .logos_footer .logo_letras_footer, .footer_contacto .footer_contacto .logos_footer .logo_letras_footer {
+.footer_general .footer_general .logos_footer .logo_letras_footer, .footer_beneficios .footer_general .logos_footer .logo_letras_footer, .footer_general .footer_beneficios .logos_footer .logo_letras_footer, .footer_beneficios .footer_beneficios .logos_footer .logo_letras_footer, .footer_servicios .footer_general .logos_footer .logo_letras_footer, .footer_servicios .footer_beneficios .logos_footer .logo_letras_footer, .footer_general .footer_servicios .logos_footer .logo_letras_footer, .footer_beneficios .footer_servicios .logos_footer .logo_letras_footer, .footer_servicios .footer_servicios .logos_footer .logo_letras_footer, .footer_contacto .footer_general .logos_footer .logo_letras_footer, .footer_contacto .footer_beneficios .logos_footer .logo_letras_footer, .footer_contacto .footer_servicios .logos_footer .logo_letras_footer, .footer_general .footer_contacto .logos_footer .logo_letras_footer, .footer_beneficios .footer_contacto .logos_footer .logo_letras_footer, .footer_servicios .footer_contacto .logos_footer .logo_letras_footer, .footer_contacto .footer_contacto .logos_footer .logo_letras_footer {
   height: 60px;
 }
-.footer_general .footer_general .logos_footer .logo_anima_footer, .footer_beneficios .footer_general .logos_footer .logo_anima_footer, .footer_general .footer_beneficios .logos_footer .logo_anima_footer, .footer_beneficios .footer_beneficios .logos_footer .logo_anima_footer, .footer_contacto .footer_general .logos_footer .logo_anima_footer, .footer_contacto .footer_beneficios .logos_footer .logo_anima_footer, .footer_general .footer_contacto .logos_footer .logo_anima_footer, .footer_beneficios .footer_contacto .logos_footer .logo_anima_footer, .footer_contacto .footer_contacto .logos_footer .logo_anima_footer {
+.footer_general .footer_general .logos_footer .logo_anima_footer, .footer_beneficios .footer_general .logos_footer .logo_anima_footer, .footer_general .footer_beneficios .logos_footer .logo_anima_footer, .footer_beneficios .footer_beneficios .logos_footer .logo_anima_footer, .footer_servicios .footer_general .logos_footer .logo_anima_footer, .footer_servicios .footer_beneficios .logos_footer .logo_anima_footer, .footer_general .footer_servicios .logos_footer .logo_anima_footer, .footer_beneficios .footer_servicios .logos_footer .logo_anima_footer, .footer_servicios .footer_servicios .logos_footer .logo_anima_footer, .footer_contacto .footer_general .logos_footer .logo_anima_footer, .footer_contacto .footer_beneficios .logos_footer .logo_anima_footer, .footer_contacto .footer_servicios .logos_footer .logo_anima_footer, .footer_general .footer_contacto .logos_footer .logo_anima_footer, .footer_beneficios .footer_contacto .logos_footer .logo_anima_footer, .footer_servicios .footer_contacto .logos_footer .logo_anima_footer, .footer_contacto .footer_contacto .logos_footer .logo_anima_footer {
   height: 70px;
   width: 70px;
   border-radius: 50%;
 }
-.footer_general .footer_general .menu_footer, .footer_beneficios .footer_general .menu_footer, .footer_general .footer_beneficios .menu_footer, .footer_beneficios .footer_beneficios .menu_footer, .footer_contacto .footer_general .menu_footer, .footer_contacto .footer_beneficios .menu_footer, .footer_general .footer_contacto .menu_footer, .footer_beneficios .footer_contacto .menu_footer, .footer_contacto .footer_contacto .menu_footer {
+.footer_general .footer_general .menu_footer, .footer_beneficios .footer_general .menu_footer, .footer_general .footer_beneficios .menu_footer, .footer_beneficios .footer_beneficios .menu_footer, .footer_servicios .footer_general .menu_footer, .footer_servicios .footer_beneficios .menu_footer, .footer_general .footer_servicios .menu_footer, .footer_beneficios .footer_servicios .menu_footer, .footer_servicios .footer_servicios .menu_footer, .footer_contacto .footer_general .menu_footer, .footer_contacto .footer_beneficios .menu_footer, .footer_contacto .footer_servicios .menu_footer, .footer_general .footer_contacto .menu_footer, .footer_beneficios .footer_contacto .menu_footer, .footer_servicios .footer_contacto .menu_footer, .footer_contacto .footer_contacto .menu_footer {
   padding-top: 25px;
 }
-.footer_general .footer_general .menu_footer ul, .footer_beneficios .footer_general .menu_footer ul, .footer_general .footer_beneficios .menu_footer ul, .footer_beneficios .footer_beneficios .menu_footer ul, .footer_contacto .footer_general .menu_footer ul, .footer_contacto .footer_beneficios .menu_footer ul, .footer_general .footer_contacto .menu_footer ul, .footer_beneficios .footer_contacto .menu_footer ul, .footer_contacto .footer_contacto .menu_footer ul {
+.footer_general .footer_general .menu_footer ul, .footer_beneficios .footer_general .menu_footer ul, .footer_general .footer_beneficios .menu_footer ul, .footer_beneficios .footer_beneficios .menu_footer ul, .footer_servicios .footer_general .menu_footer ul, .footer_servicios .footer_beneficios .menu_footer ul, .footer_general .footer_servicios .menu_footer ul, .footer_beneficios .footer_servicios .menu_footer ul, .footer_servicios .footer_servicios .menu_footer ul, .footer_contacto .footer_general .menu_footer ul, .footer_contacto .footer_beneficios .menu_footer ul, .footer_contacto .footer_servicios .menu_footer ul, .footer_general .footer_contacto .menu_footer ul, .footer_beneficios .footer_contacto .menu_footer ul, .footer_servicios .footer_contacto .menu_footer ul, .footer_contacto .footer_contacto .menu_footer ul {
   list-style: none;
   display: flex;
   gap: 90px;
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
 }
-.footer_general .footer_general .menu_footer a, .footer_beneficios .footer_general .menu_footer a, .footer_general .footer_beneficios .menu_footer a, .footer_beneficios .footer_beneficios .menu_footer a, .footer_contacto .footer_general .menu_footer a, .footer_contacto .footer_beneficios .menu_footer a, .footer_general .footer_contacto .menu_footer a, .footer_beneficios .footer_contacto .menu_footer a, .footer_contacto .footer_contacto .menu_footer a {
+.footer_general .footer_general .menu_footer a, .footer_beneficios .footer_general .menu_footer a, .footer_general .footer_beneficios .menu_footer a, .footer_beneficios .footer_beneficios .menu_footer a, .footer_servicios .footer_general .menu_footer a, .footer_servicios .footer_beneficios .menu_footer a, .footer_general .footer_servicios .menu_footer a, .footer_beneficios .footer_servicios .menu_footer a, .footer_servicios .footer_servicios .menu_footer a, .footer_contacto .footer_general .menu_footer a, .footer_contacto .footer_beneficios .menu_footer a, .footer_contacto .footer_servicios .menu_footer a, .footer_general .footer_contacto .menu_footer a, .footer_beneficios .footer_contacto .menu_footer a, .footer_servicios .footer_contacto .menu_footer a, .footer_contacto .footer_contacto .menu_footer a {
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
-.footer_general .footer_general .imagenes_footer, .footer_beneficios .footer_general .imagenes_footer, .footer_general .footer_beneficios .imagenes_footer, .footer_beneficios .footer_beneficios .imagenes_footer, .footer_contacto .footer_general .imagenes_footer, .footer_contacto .footer_beneficios .imagenes_footer, .footer_general .footer_contacto .imagenes_footer, .footer_beneficios .footer_contacto .imagenes_footer, .footer_contacto .footer_contacto .imagenes_footer {
+.footer_general .footer_general .imagenes_footer, .footer_beneficios .footer_general .imagenes_footer, .footer_general .footer_beneficios .imagenes_footer, .footer_beneficios .footer_beneficios .imagenes_footer, .footer_servicios .footer_general .imagenes_footer, .footer_servicios .footer_beneficios .imagenes_footer, .footer_general .footer_servicios .imagenes_footer, .footer_beneficios .footer_servicios .imagenes_footer, .footer_servicios .footer_servicios .imagenes_footer, .footer_contacto .footer_general .imagenes_footer, .footer_contacto .footer_beneficios .imagenes_footer, .footer_contacto .footer_servicios .imagenes_footer, .footer_general .footer_contacto .imagenes_footer, .footer_beneficios .footer_contacto .imagenes_footer, .footer_servicios .footer_contacto .imagenes_footer, .footer_contacto .footer_contacto .imagenes_footer {
   padding-top: 30px;
   margin-left: 20px;
 }
-.footer_general .footer_general .imagenes_footer img, .footer_beneficios .footer_general .imagenes_footer img, .footer_general .footer_beneficios .imagenes_footer img, .footer_beneficios .footer_beneficios .imagenes_footer img, .footer_contacto .footer_general .imagenes_footer img, .footer_contacto .footer_beneficios .imagenes_footer img, .footer_general .footer_contacto .imagenes_footer img, .footer_beneficios .footer_contacto .imagenes_footer img, .footer_contacto .footer_contacto .imagenes_footer img {
+.footer_general .footer_general .imagenes_footer img, .footer_beneficios .footer_general .imagenes_footer img, .footer_general .footer_beneficios .imagenes_footer img, .footer_beneficios .footer_beneficios .imagenes_footer img, .footer_servicios .footer_general .imagenes_footer img, .footer_servicios .footer_beneficios .imagenes_footer img, .footer_general .footer_servicios .imagenes_footer img, .footer_beneficios .footer_servicios .imagenes_footer img, .footer_servicios .footer_servicios .imagenes_footer img, .footer_contacto .footer_general .imagenes_footer img, .footer_contacto .footer_beneficios .imagenes_footer img, .footer_contacto .footer_servicios .imagenes_footer img, .footer_general .footer_contacto .imagenes_footer img, .footer_beneficios .footer_contacto .imagenes_footer img, .footer_servicios .footer_contacto .imagenes_footer img, .footer_contacto .footer_contacto .imagenes_footer img {
   height: 50px;
   width: 50px;
   margin-right: 25px;
   border-radius: 50%;
   border: 2px solid rgb(255, 255, 255);
 }
-.footer_general .footer_general .derechos_footer, .footer_beneficios .footer_general .derechos_footer, .footer_general .footer_beneficios .derechos_footer, .footer_beneficios .footer_beneficios .derechos_footer, .footer_contacto .footer_general .derechos_footer, .footer_contacto .footer_beneficios .derechos_footer, .footer_general .footer_contacto .derechos_footer, .footer_beneficios .footer_contacto .derechos_footer, .footer_contacto .footer_contacto .derechos_footer {
+.footer_general .footer_general .derechos_footer, .footer_beneficios .footer_general .derechos_footer, .footer_general .footer_beneficios .derechos_footer, .footer_beneficios .footer_beneficios .derechos_footer, .footer_servicios .footer_general .derechos_footer, .footer_servicios .footer_beneficios .derechos_footer, .footer_general .footer_servicios .derechos_footer, .footer_beneficios .footer_servicios .derechos_footer, .footer_servicios .footer_servicios .derechos_footer, .footer_contacto .footer_general .derechos_footer, .footer_contacto .footer_beneficios .derechos_footer, .footer_contacto .footer_servicios .derechos_footer, .footer_general .footer_contacto .derechos_footer, .footer_beneficios .footer_contacto .derechos_footer, .footer_servicios .footer_contacto .derechos_footer, .footer_contacto .footer_contacto .derechos_footer {
   padding-top: 40px;
 }
 
@@ -168,56 +168,56 @@
 }
 
 /* FOOTER INDEX */
-.footer_general, .footer_beneficios, .footer_contacto {
+.footer_general, .footer_beneficios, .footer_servicios, .footer_contacto {
   background-color: rgba(3, 0, 0, 0.945);
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
 }
-.footer_general .logos_footer, .footer_beneficios .logos_footer, .footer_contacto .logos_footer {
+.footer_general .logos_footer, .footer_beneficios .logos_footer, .footer_servicios .logos_footer, .footer_contacto .logos_footer {
   width: auto;
   padding-bottom: 30px;
   padding-top: 20px;
 }
-.footer_general .logos_footer img, .footer_beneficios .logos_footer img, .footer_contacto .logos_footer img {
+.footer_general .logos_footer img, .footer_beneficios .logos_footer img, .footer_servicios .logos_footer img, .footer_contacto .logos_footer img {
   margin: 0 2px;
 }
-.footer_general .logos_footer .logo_letras_footer, .footer_beneficios .logos_footer .logo_letras_footer, .footer_contacto .logos_footer .logo_letras_footer {
+.footer_general .logos_footer .logo_letras_footer, .footer_beneficios .logos_footer .logo_letras_footer, .footer_servicios .logos_footer .logo_letras_footer, .footer_contacto .logos_footer .logo_letras_footer {
   height: 60px;
 }
-.footer_general .logos_footer .logo_anima_footer, .footer_beneficios .logos_footer .logo_anima_footer, .footer_contacto .logos_footer .logo_anima_footer {
+.footer_general .logos_footer .logo_anima_footer, .footer_beneficios .logos_footer .logo_anima_footer, .footer_servicios .logos_footer .logo_anima_footer, .footer_contacto .logos_footer .logo_anima_footer {
   height: 70px;
   width: 70px;
   border-radius: 50%;
 }
-.footer_general .menu_footer, .footer_beneficios .menu_footer, .footer_contacto .menu_footer {
+.footer_general .menu_footer, .footer_beneficios .menu_footer, .footer_servicios .menu_footer, .footer_contacto .menu_footer {
   padding-top: 25px;
 }
-.footer_general .menu_footer ul, .footer_beneficios .menu_footer ul, .footer_contacto .menu_footer ul {
+.footer_general .menu_footer ul, .footer_beneficios .menu_footer ul, .footer_servicios .menu_footer ul, .footer_contacto .menu_footer ul {
   list-style: none;
   display: flex;
   gap: 90px;
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
 }
-.footer_general .menu_footer a, .footer_beneficios .menu_footer a, .footer_contacto .menu_footer a {
+.footer_general .menu_footer a, .footer_beneficios .menu_footer a, .footer_servicios .menu_footer a, .footer_contacto .menu_footer a {
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
-.footer_general .imagenes_footer, .footer_beneficios .imagenes_footer, .footer_contacto .imagenes_footer {
+.footer_general .imagenes_footer, .footer_beneficios .imagenes_footer, .footer_servicios .imagenes_footer, .footer_contacto .imagenes_footer {
   padding-top: 30px;
   margin-left: 20px;
 }
-.footer_general .imagenes_footer img, .footer_beneficios .imagenes_footer img, .footer_contacto .imagenes_footer img {
+.footer_general .imagenes_footer img, .footer_beneficios .imagenes_footer img, .footer_servicios .imagenes_footer img, .footer_contacto .imagenes_footer img {
   height: 50px;
   width: 50px;
   margin-right: 25px;
   border-radius: 50%;
   border: 2px solid rgb(255, 255, 255);
 }
-.footer_general .derechos_footer, .footer_beneficios .derechos_footer, .footer_contacto .derechos_footer {
+.footer_general .derechos_footer, .footer_beneficios .derechos_footer, .footer_servicios .derechos_footer, .footer_contacto .derechos_footer {
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -254,6 +254,49 @@
     margin-left: 0;
   }
 }
+@media (max-width: 470px) {
+  .menu_de_index ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+  }
+  .contenido_principal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .contenido_principal h1 {
+    font-size: 45px;
+  }
+  .contenido_principal h2 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .contenido_principal .boton_principal {
+    margin-left: 0;
+  }
+  .footer_general, .footer_beneficios, .footer_servicios, .footer_contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .footer_general .menu_footer, .footer_beneficios .menu_footer, .footer_servicios .menu_footer, .footer_contacto .menu_footer {
+    margin-right: 30px;
+  }
+  .footer_general .menu_footer ul, .footer_beneficios .menu_footer ul, .footer_servicios .menu_footer ul, .footer_contacto .menu_footer ul {
+    gap: 30px;
+  }
+  .carousel-centered {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .seccion_derecha .boton_del_index {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* FIN DE RESPONSIVE INDEX */
 /* INICIO CONTACTO ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .body_contacto {
   font-family: "Poppins", sans-serif;
@@ -458,6 +501,11 @@
     padding-right: 80px;
   }
 }
+@media (max-width: 470px) {
+  .titulo_contacto h1 {
+    font-size: 35px;
+  }
+}
 /* FIN DE CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* INICIO DE SERVICIOS --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .body_servicios {
@@ -570,60 +618,6 @@
   padding-left: 40px;
   padding-top: 310px;
   font-size: 20px;
-}
-
-.footer_servicios {
-  background-color: rgba(3, 0, 0, 0.945);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.footer_servicios .logos_footer {
-  width: auto;
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-.footer_servicios .logos_footer img {
-  margin: 0 2px;
-}
-.footer_servicios .logos_footer .logo_letras_footer {
-  height: 60px;
-}
-.footer_servicios .logos_footer .logo_anima_footer {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-}
-.footer_servicios .menu_footer {
-  padding-top: 25px;
-}
-.footer_servicios .menu_footer ul {
-  list-style: none;
-  display: flex;
-  gap: 90px;
-  margin-bottom: 0;
-  font-family: "Poppins", sans-serif;
-}
-.footer_servicios .menu_footer a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.footer_servicios .imagenes_footer {
-  padding-top: 30px;
-  margin-left: 20px;
-}
-.footer_servicios .imagenes_footer img {
-  height: 50px;
-  width: 50px;
-  margin-right: 25px;
-  border-radius: 50%;
-  border: 2px solid rgb(255, 255, 255);
-}
-.footer_servicios .derechos_footer {
-  padding-top: 40px;
-  padding-bottom: 20px;
 }
 
 /* RESPONSIVE SERVICIO */
@@ -818,6 +812,38 @@ p {
   }
 }
 
+@media (max-width: 460px) {
+  .menu_de_index ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+  }
+  .seccion_musculacion {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .imagenes_musculacion {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info_musculacion p {
+    font-size: 10px;
+  }
+  .seccion_funcional {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .imagenes_funcional {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .info_funcional p {
+    font-size: 20px;
+  }
+}
 /* RESPONSIVE BENEFICIOS */
 @media (max-width: 768px) {
   .nav_beneficios ul {

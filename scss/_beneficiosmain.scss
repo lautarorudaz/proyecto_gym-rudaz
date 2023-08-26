@@ -125,7 +125,7 @@
     align-items: center;
   }
   .info_musculacion p{
-    font-size: 20px
+    font-size: 20px;
   }
 
   .seccion_funcional{
@@ -145,4 +145,42 @@
   
 
 }
+}
+
+@media (max-width: 460px) {
+  .menu_de_index ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+  }
+  
+  .seccion_musculacion{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .imagenes_musculacion{
+    flex-direction: column;
+    align-items: center;
+  }
+  .info_musculacion p{
+    font-size: 10px;
+  }
+
+  .seccion_funcional{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .imagenes_funcional{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    
+  }
+  .info_funcional p{
+    font-size: 20px
+  }
+  
+
 }
