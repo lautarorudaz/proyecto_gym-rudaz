@@ -254,7 +254,7 @@
     margin-left: 0;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 410px) {
   .menu_de_index ul {
     flex-direction: column;
     gap: 15px;
@@ -266,10 +266,10 @@
     margin-top: 80px;
   }
   .contenido_principal h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .contenido_principal h2 {
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -285,7 +285,7 @@
     margin-right: 30px;
   }
   .footer_general .menu_footer ul, .footer_beneficios .menu_footer ul, .footer_servicios .menu_footer ul, .footer_contacto .menu_footer ul {
-    gap: 30px;
+    gap: 13px;
   }
   .carousel-centered {
     max-width: 100%;
@@ -501,9 +501,9 @@
     padding-right: 80px;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 410px) {
   .titulo_contacto h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 /* FIN DE CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -812,11 +812,14 @@ p {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 410px) {
   .menu_de_index ul {
     flex-direction: column;
     gap: 15px;
     margin-right: 0;
+  }
+  .titulo_beneficios {
+    font-size: 27px;
   }
   .seccion_musculacion {
     flex-direction: column;

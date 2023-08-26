@@ -147,11 +147,15 @@
 }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 410px) {
   .menu_de_index ul {
     flex-direction: column;
     gap: 15px;
     margin-right: 0;
+  }
+
+  .titulo_beneficios{
+    font-size: 27px;
   }
   
   .seccion_musculacion{
